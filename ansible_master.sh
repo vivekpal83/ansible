@@ -8,7 +8,7 @@
 #update the system
 apt-get update -y
 
-#create ansible repositor
+#create ansible repository
 apt-add-repository ppa:ansible/ansible
 
 #install the ansible
