@@ -5,7 +5,7 @@
 #install the ansible
 #check the ansible version
 
-#update the packag
+#update the system
 apt-get update -y
 
 #create ansible repositor
