@@ -1,0 +1,12 @@
+[compute]
+server1@192.168.56.20
+server2@192.168.56.30
+
+[control]
+server3@192.168.56.40
+
+[all]
+server1@192.168.56.20
+server2@192.168.56.30
+server3@192.168.56.40
+
