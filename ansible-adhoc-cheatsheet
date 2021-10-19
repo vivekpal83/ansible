@@ -1,0 +1,12 @@
+#ansible command to run some ansible adhoc commands 
+
+#This will make the connection to all the servers defined in inventory file
+ansible all -m ping
+
+#Some times few actions can be perfomed with sudo access onl
+ansible all -m apt -a name=tmux --become --ask-become-pass 
+
+#The above command "apt is the module and we aare installing tmux on all the servers ; "become is sudo"
+
+#The command to update the packages on all the servers at a go
+ansible all -m apt -a "dist=upgrade" --become --ask-become-pass
